@@ -1,0 +1,1 @@
+RewriteRule ^([0-9]{1,4})x([0-9]{1,4}).(png|jpg|webp)$ /placeholder/index.php?w=$1&h=$2&f=$3 [QSA,L]
